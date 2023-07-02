@@ -4,11 +4,11 @@ import Image from 'next/image'
 const Features = () => {
 	return (
 		<section className='flex flex-col gap-14 bg-lightGrayishBlue px-6 py-16 text-center md:gap-20 md:px-40 md:py-24 md:text-left'>
-			<div className='flex flex-col gap-4'>
+			<div className='flex flex-col items-center md:items-start gap-4'>
 				<h2 className='text-3xl font-light tracking-tight text-darkBlue md:text-[40px]/[64px]'>
 					Why choose Easybank?
 				</h2>
-				<p className='max-w-2xl text-[15px]/[25px] text-grayishBlue md:text-lg'>
+				<p className='max-w-sm md:max-w-2xl text-[15px]/[25px] text-grayishBlue md:text-lg'>
 					We leverage Open Banking to turn your bank account into your financial
 					hub. Control your finances like never before.
 				</p>

@@ -16,6 +16,8 @@ module.exports = {
 			},
 			backgroundImage: {
 				buttonGradient: 'linear-gradient(135deg, #33D35E 0%, #2AB6D9 100%)',
+				backdropGradient:
+					'linear-gradient(180deg, #2D314D 0%, rgba(45, 49, 77, 0.00) 100%)',
 				introMobile: 'url("/images/bg-intro-mobile.svg")',
 				introDesktop: 'url("/images/bg-intro-desktop.svg")',
 			},

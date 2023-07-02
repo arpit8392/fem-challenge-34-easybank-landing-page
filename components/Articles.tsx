@@ -11,7 +11,7 @@ const Articles = () => {
 				{articles.map((article) => (
 					<li
 						key={article.id}
-						className='grid grid-cols-1 overflow-hidden rounded-lg bg-white shadow-2xl'>
+						className='grid grid-cols-1 overflow-hidden rounded-lg bg-white shadow-md'>
 						<div className='relative h-[200px] w-full'>
 							<Image
 								src={`/images/${article.image}`}
@@ -23,7 +23,7 @@ const Articles = () => {
 							<p className='text-[10px]/[18px] text-grayishBlue'>
 								By {article.author}
 							</p>
-							<h3 className='text-light text-darkBlue tracking-tight'>{article.heading}</h3>
+							<h3 className='text-light text-darkBlue tracking-tight hover:text-limeGreen cursor-pointer'>{article.heading}</h3>
 							<p className='text-[13px]/[18px] text-grayishBlue max-w-xs'>{article.summary}</p>
 						</div>
 					</li>
