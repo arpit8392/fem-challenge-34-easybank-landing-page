@@ -50,7 +50,7 @@ const Header = () => {
 				open={isOpen}
 				onClose={() => setIsOpen(false)}>
 				<div className='fixed inset-0 bg-darkBlue/30' aria-hidden='true' />
-				<Dialog.Panel className='fixed left-6 right-6 top-24 z-10 rounded-[4px] bg-white	'>
+				<Dialog.Panel className='fixed left-6 right-6 top-24 z-10 rounded-[4px] bg-white'>
 					<div className='relative py-8'>
 						<ul className='flex flex-col items-center gap-6'>
 							{navigations.map((item) => (
